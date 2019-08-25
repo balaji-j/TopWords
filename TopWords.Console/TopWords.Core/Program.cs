@@ -24,13 +24,13 @@ namespace TopWords.Core
 
             //Introducing Dependency Injection
             var serviceProvider = new ServiceCollection()
-                .AddLogging()
+                .AddLogging(loggingBuilder =>
+                    {
+                        loggingBuilder.AddConsole();
+                    })
                 .AddSingleton<IWordCounter, WordCounter>()
                 .AddSingleton<IFileValidator, FileValidator>()
                 .BuildServiceProvider();
-
-            //configure console logging
-            serviceProvider.GetService<ILoggerFactory>().AddConsole(LogLevel.Debug);
 
             var logger = serviceProvider.GetService<ILoggerFactory>()
                 .CreateLogger<Program>();
@@ -38,6 +38,7 @@ namespace TopWords.Core
             WordCounter = serviceProvider.GetService<IWordCounter>();
             FileValidator = serviceProvider.GetService<IFileValidator>();
 
+            //Defining the File Path from Solution Directory
             Directory.SetCurrentDirectory(AppDomain.CurrentDomain.BaseDirectory);
             String root = Directory.GetCurrentDirectory();
 

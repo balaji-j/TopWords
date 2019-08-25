@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Console;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -106,6 +108,25 @@ namespace TopWords.Test
             var wordCounter = new WordCounter(logger);
             //Assert
             wordCounter.CountWords(String.Empty);
+        }
+
+        /// <summary>
+        /// Test case to check if valid file path is provided and dictionary is expected
+        /// </summary>
+        [TestMethod]
+        public void IsValidFilePath_Return_ConcurrentDictionary()
+        {
+            //Creating a MOQ object of ILogger interface to instantiate the WordCounter
+            //Arrange
+            var serviceProvider = new ServiceCollection()
+                .AddLogging()
+                .BuildServiceProvider();
+            var factory = serviceProvider.GetService<ILoggerFactory>();
+            //Act
+            var wordCounter = new WordCounter(factory);
+            var result = wordCounter.CountWords(_filePath);
+            //Assert
+            Assert.IsInstanceOfType(result, typeof(ConcurrentDictionary<string, int>));
         }
     }
 }

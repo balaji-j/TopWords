@@ -27,7 +27,7 @@ namespace TopWords.Bs.Concretes
         /// <returns>Dictionary</returns>
         public IDictionary<string, int> CountWords(string path)
         {
-            //Throw exception incase of file path is empty
+            //Throw exception incase of file path is null or empty
             if (String.IsNullOrEmpty(path))
             {
                 throw new FileNotFoundException();

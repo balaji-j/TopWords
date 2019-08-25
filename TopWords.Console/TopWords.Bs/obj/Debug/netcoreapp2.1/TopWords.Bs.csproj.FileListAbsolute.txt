@@ -6,3 +6,4 @@ C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Bs\bin\Debug\
 C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Bs\bin\Debug\netcoreapp2.1\TopWords.Bs.pdb
 C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Bs\obj\Debug\netcoreapp2.1\TopWords.Bs.dll
 C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Bs\obj\Debug\netcoreapp2.1\TopWords.Bs.pdb
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Bs\obj\Debug\netcoreapp2.1\TopWords.Bs.csprojAssemblyReference.cache
