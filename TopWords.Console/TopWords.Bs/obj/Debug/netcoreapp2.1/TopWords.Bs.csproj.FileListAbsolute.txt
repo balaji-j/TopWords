@@ -1,0 +1,8 @@
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Bs\obj\Debug\netcoreapp2.1\TopWords.Bs.csproj.CoreCompileInputs.cache
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Bs\obj\Debug\netcoreapp2.1\TopWords.Bs.AssemblyInfoInputs.cache
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Bs\obj\Debug\netcoreapp2.1\TopWords.Bs.AssemblyInfo.cs
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Bs\bin\Debug\netcoreapp2.1\TopWords.Bs.deps.json
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Bs\bin\Debug\netcoreapp2.1\TopWords.Bs.dll
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Bs\bin\Debug\netcoreapp2.1\TopWords.Bs.pdb
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Bs\obj\Debug\netcoreapp2.1\TopWords.Bs.dll
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Bs\obj\Debug\netcoreapp2.1\TopWords.Bs.pdb

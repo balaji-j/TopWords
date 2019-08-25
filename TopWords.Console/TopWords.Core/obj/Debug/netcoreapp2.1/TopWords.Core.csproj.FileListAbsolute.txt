@@ -1,0 +1,15 @@
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\bin\Debug\netcoreapp2.1\TopWords.Core.deps.json
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\bin\Debug\netcoreapp2.1\TopWords.Core.runtimeconfig.json
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\bin\Debug\netcoreapp2.1\TopWords.Core.runtimeconfig.dev.json
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\bin\Debug\netcoreapp2.1\TopWords.Core.dll
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\bin\Debug\netcoreapp2.1\TopWords.Core.pdb
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\obj\Debug\netcoreapp2.1\TopWords.Core.csproj.CoreCompileInputs.cache
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\obj\Debug\netcoreapp2.1\TopWords.Core.AssemblyInfoInputs.cache
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\obj\Debug\netcoreapp2.1\TopWords.Core.AssemblyInfo.cs
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\obj\Debug\netcoreapp2.1\TopWords.Core.dll
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\obj\Debug\netcoreapp2.1\TopWords.Core.pdb
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\bin\Debug\netcoreapp2.1\Files\mobydick.txt
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\obj\Debug\netcoreapp2.1\TopWords.Core.csprojAssemblyReference.cache
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\bin\Debug\netcoreapp2.1\TopWords.Bs.dll
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\bin\Debug\netcoreapp2.1\TopWords.Bs.pdb
+C:\Users\balaji.jambulingam\source\repos\TopWords.Console\TopWords.Core\obj\Debug\netcoreapp2.1\TopWords.Core.csproj.CopyComplete
